@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(76, 146, 124);
+    margin-left: 50px;
+    margin-right: 100px;
+}
+
+header {
+    margin-top: 50px;
+}
+
+h1 {
+    color: crimson;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2 {
+    font-family: monospace;
+}
+
+p {
+    font-size: 18px;
+}
+/*sem criar classes, podemos formatar itens isolados.*/
+.img_corpo {
+    margin-bottom: 20px;
+    width: 20em;
+}
+
+.img_contato {
+    margin-right: 10px;
+    width: 5em;
+}
+/*caso haja outros projeto html, podemos linkar este css a um outro html, sendo necessário apenas criar as classes
+para que a formatação seja herdada.*/
+/*neste exemplo, foi criada uma classe dentro de cada section, porém e possível criar uma
+classe e indentar a parte do código que deve ser referida dentro da classe.*/
